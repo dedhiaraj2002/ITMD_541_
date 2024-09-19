@@ -1,0 +1,32 @@
+/* Style for the entire page */
+body {
+    background-color: rgb(252, 254, 252);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Style for the content box */
+.content-box {
+    padding: 50px;
+    margin: 20px;
+    border: 15px solid rgb(15, 67, 15);
+    background-color: lightgray;
+    width: 400px;
+    text-align: left;
+}
+
+/* Optional: Styling for the headings and paragraphs */
+.content-box h2 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+.content-box p {
+    color: #555;
+    line-height: 1.5;
+}
